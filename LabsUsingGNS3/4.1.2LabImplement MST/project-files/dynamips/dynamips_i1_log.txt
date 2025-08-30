@@ -1,0 +1,33 @@
+Aug 06 10:25:22.746 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Aug 06 10:25:22.748 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 52004.
+Aug 06 10:25:22.846 HYPERVISOR: exec_cmd: hypervisor version 
+Aug 06 10:25:22.850 HYPERVISOR: exec_cmd: hypervisor working_dir E:\CITI\7.CCNP_ENCOR\July2025\4.1.2LabImplement MST\project-files\dynamips 
+Aug 06 10:25:22.860 GENERAL: working_dir=E:\CITI\7.CCNP_ENCOR\July2025\4.1.2LabImplement MST\project-files\dynamips
+Aug 06 10:25:22.861 HYPERVISOR: exec_cmd: hypervisor working_dir E:\CITI\7.CCNP_ENCOR\July2025\4.1.2LabImplement MST\project-files\dynamips\8306b572-f241-4e5b-9f25-9dd55f6b2e7f 
+Aug 06 10:25:22.861 GENERAL: working_dir=E:\CITI\7.CCNP_ENCOR\July2025\4.1.2LabImplement MST\project-files\dynamips\8306b572-f241-4e5b-9f25-9dd55f6b2e7f
+Aug 06 10:25:22.862 HYPERVISOR: exec_cmd: vm create R1 1 c3600 
+Aug 06 10:25:22.865 VM: VM R1 created.
+Aug 06 10:25:22.867 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5000 
+Aug 06 10:25:22.867 HYPERVISOR: exec_cmd: c3600 get_mac_addr R1 
+Aug 06 10:25:22.871 HYPERVISOR: exec_cmd: vm set_exec_area R1 64 
+Aug 06 10:25:22.872 HYPERVISOR: exec_cmd: vm get_status R1 
+Aug 06 10:25:22.873 HYPERVISOR: exec_cmd: vm set_idle_pc R1 0x6050b114 
+Aug 06 10:25:22.877 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/afza2/Downloads/Cisco 3640/Cisco 3640/c3640-a3js-mz.124-25d.image 
+Aug 06 10:25:22.881 HYPERVISOR: exec_cmd: c3600 set_mac_addr R1 cc01.3358.0000 
+Aug 06 10:25:22.883 HYPERVISOR: exec_cmd: vm set_nvram R1 256 
+Aug 06 10:25:22.885 HYPERVISOR: exec_cmd: vm set_ram R1 192 
+Aug 06 10:25:22.887 HYPERVISOR: exec_cmd: vm get_status R1 
+Aug 06 10:25:22.888 HYPERVISOR: exec_cmd: vm slot_add_binding R1 0 0 NM-4T 
+Aug 06 10:25:22.890 HYPERVISOR: exec_cmd: vm get_status R1 
+Aug 06 10:25:22.891 HYPERVISOR: exec_cmd: vm slot_add_binding R1 1 0 NM-1E 
+Aug 06 10:25:22.893 HYPERVISOR: exec_cmd: vm get_status R1 
+Aug 06 10:25:22.894 HYPERVISOR: exec_cmd: vm slot_add_binding R1 2 0 NM-4E 
+Aug 06 10:25:22.895 HYPERVISOR: exec_cmd: vm get_status R1 
+Aug 06 10:25:22.895 HYPERVISOR: exec_cmd: vm slot_add_binding R1 3 0 NM-1FE-TX 
+Aug 06 10:25:29.734 HYPERVISOR: exec_cmd: vm get_status R1 
+Aug 06 10:25:29.736 HYPERVISOR: exec_cmd: vm extract_config R1 
+Aug 06 10:25:29.737 HYPERVISOR: exec_cmd: vm delete R1 
+Aug 06 10:25:29.738 VM: VM R1 destroyed.
+Aug 06 10:25:29.740 HYPERVISOR: exec_cmd: hypervisor stop 
+Aug 06 10:25:29.854 HYPERVISOR: Stopped.
+Aug 06 10:25:29.854 GENERAL: reset done.
